@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basic Selector</title>
+</head>
+<style>
+      /* All H1 Choose  */
+
+
+    /* h1{
+        color: black;
+        background-color: red;
+    }
+    p{
+        color: black;
+        background-color: red ;
+    } */
+
+
+    /* 
+    h1,p{
+        color: black;
+        background-color: red;
+    } */
+
+
+    /* #logo {
+        color: black;
+        background-color: red;
+    } */
+
+
+    /* .info{
+        color: black;
+        background-color: red;
+    } */
+
+
+    /* #logo , .lead{
+       color: black;
+       background-color: red;
+    } */
+
+
+    /* #money1.lead{
+        color: black;
+        background-color: red;
+    } */
+
+
+    /* a{
+        text-decoration: none;
+    } */
+
+
+    /* ul li a{
+        text-decoration: none;
+    } */
+
+
+    /* .info span{
+        color: red;
+    } */
+
+
+    /* .info .primary{
+        color: yellow;
+    } */
+
+
+
+    /*All Html */
+    *{
+        font-size: 30px;
+    }
+</style>
+<body>
+    <header>
+      <h1>Header 1 </h1>
+      <h1 id="logo">Logo</h1>
+
+      <ul>
+           <li>
+            <a href="#">Contact</a>
+           </li>
+           <li><a href="#">Services</a></li>
+      </ul>
+    </header>
+    <h1>Header 2</h1>
+    <p id="money1" class="lead info">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, sequi.
+    </p>
+    <p class="info">
+        Lorem ipsum <span class="primary"> dolor</span> sit amet consectetur adipisicing elit. 
+        Labore necessitatibus sit explicabo dolor excepturi! Quod nihil obcaecati porro amet eum.
+    </p>
+    <p class="info">
+      Lorem, ipsum dolor sit amet <span > consectetur</span> adipisicing elit. Numquam, dolorum obcaecati esse enim pariatur necessitatibus?
+    </p>
+    <p>Test Paragraph</p>
+    <a href="#">home</a>
+</body>
+</html>
